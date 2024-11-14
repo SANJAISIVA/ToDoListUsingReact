@@ -1,0 +1,13 @@
+.footerContainer {
+    width: 700px;
+    height: 50px;
+    background-color: #4379F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerContainer>h3 {
+    letter-spacing: 7px;
+}
