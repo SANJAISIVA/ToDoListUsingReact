@@ -13,7 +13,9 @@ function Header() {
     return(
         <div className="headerContainer">
             <img src='logo192.png' alt='logo'></img>
-            <h1>Siva's ToDo List</h1>
+            {/* <h1>Siva's ToDo List</h1> */}
+            {/* Changing the header */}
+            <h1>Today's ToDo List</h1>
             <h3>{curDate}</h3>
         </div>
     );
